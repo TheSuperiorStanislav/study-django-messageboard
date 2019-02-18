@@ -1,4 +1,5 @@
 {
     "python.pythonPath": "/home/thesuperiorstanislav/.local/share/virtualenvs/message_board-LsvLpS-n/bin/python",
-    "python.linting.pylintPath": "/home/thesuperiorstanislav/.local/bin/pylint"
+    "python.linting.pylintPath": "/home/thesuperiorstanislav/.local/bin/pylint",
+    "python.linting.pylintEnabled": true
 }

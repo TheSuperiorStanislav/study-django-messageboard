@@ -3,7 +3,7 @@ from django.views.generic import ListView
 from .models import Post
 
 # Create your views here.
-class PostPageView(ListView):
+class BlogPageView(ListView):
     model = Post
-    template_name = 'home.html'
-    context_object_name = 'posts'
+    template_name = 'blog.html'
+    context_object_name = 'blog'
