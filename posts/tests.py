@@ -22,7 +22,7 @@ class HomePageViewTest(TestCase):
         Post.objects.create(text = self.test_str)
     
     def test_view_url_exists_at_proper_location(self):
-        resp = self.client.get('/')
+        resp = self.client.get('/messageboard/')
         self.assertEqual(resp.status_code,200)
     
     def test_view_url_by_name(self):
